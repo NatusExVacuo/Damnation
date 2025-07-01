@@ -958,9 +958,6 @@
   id: Magazine45_magnumSubMachineGunFMJ
 
 - type: Tag
-  id: Magazine8x65mmSKR # mono
-
-- type: Tag
   id: Magazine40mm
 
 # Magazines end

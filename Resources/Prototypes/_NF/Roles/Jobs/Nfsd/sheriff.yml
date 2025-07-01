@@ -55,6 +55,8 @@
   description: job-description-sheriff
   playTimeTracker: JobHeadOfSecurity
   requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 108000 # 30 hours # mono
     - !type:DepartmentTimeRequirement
       department: Security
       time: 72000 # 20 hours # mono
@@ -63,6 +65,8 @@
       time: 21600 # 6 hours # mono
   alternateRequirementSets:
     longerPlaytimeLessSec:
+    - !type:OverallPlaytimeRequirement
+      time: 180000 # 50 hours # mono
     - !type:DepartmentTimeRequirement
       department: Security
       time: 36000 # 10 hours # mono
